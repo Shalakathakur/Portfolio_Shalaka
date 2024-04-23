@@ -1,0 +1,46 @@
+h1 {
+    color: teal;
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#h1-top{
+    font-style: italic;
+    color: rgb(108, 45, 167);
+    text-align: left;
+    border: #8f7bea thin solid;
+    /* margin-top: 100px; */
+    /* margin-left: 100px; */
+    padding-left: 20px; 
+}
+
+.headings {
+    background-color: antiquewhite;
+    border: thin solid grey
+}
+
+body {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/909/934/447/red-blue-soft-pastel-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    height: 500px;
+}
+
+.griditems {
+    background-color: whitesmoke;
+    padding-left: 20px;
+    color: rgb(91, 49, 129);
+}
+
+.flexcontainer {
+    display: flex;
+    align-items: center;
+}
